@@ -90,35 +90,28 @@ h1{
     height: auto;
     margin: 0;
     padding: 0;
+    opacity: 80%;
 }
 
 .banner .action{
-    width: 40%;
+    width: 30%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-}
-
-.banner .action h2{
-    color: white;
-    font-size: 50px;
-    text-align: center;
-    text-shadow: 3px 3px 10px black;
-    width: 100%;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.688);
 }
 
 .banner .action a{
     font-size: 25px;
+    text-align: center;
     text-decoration: none;
     color: rgb(0, 0, 140);
-    background-color: white;
-    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.692);
     padding: 10px 20px;
-    margin: 5px;
     transition: .5s;
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.688);
-    border: solid rgba(0, 0, 0, 0.37) 1px;
+    width: 100%;
+    border: solid rgba(0, 0, 0, 0.654) 1px;
 }
 
 .banner .action a:hover{
@@ -126,6 +119,19 @@ h1{
     color: white;
     transition: .5s;
 }
+
+@media only screen and (max-width: 999px) {
+    .banner_content{
+        flex-wrap: wrap;
+    }
+    
+    .banner .logo{
+        width: 60%;
+    }
+    .banner .action{
+        width: 60%;
+    }
+  }
 
 .shop{
     text-align: center;
@@ -196,6 +202,25 @@ h1{
 .etsy_back:hover{
     background-color: white;
     transition: .5s;
+}
+
+@media only screen and (max-width: 1199px) {
+
+    .flex_shop{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .shop_item{
+        width: 100%;
+    }
+
+    .shop_item img{
+        height: 250px;
+        width: auto;
+        padding: 75px;
+    }
+
 }
 
 .learn h2{
