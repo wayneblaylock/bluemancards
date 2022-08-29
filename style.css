@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    background-color: rgb(229, 204, 185);
+
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+a{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2{
+    font-family: 'Roboto Slab', serif;
+    letter-spacing: 3px;
+    color: rgb(0, 0, 105);
+}
+
+.header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 5px 0px;
+    z-index: 5;
+    background-color: rgb(255, 255, 255);
+    height: 35px;
+    width: 100%;
+    text-align: right;
+    box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.582);
+}
+
+h1{
+    padding: 0;
+    margin: 0 50px 0 0;
+    font-size: 30px;
+    color: rgb(0, 0, 100);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.banner{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.144);
+    transition: 1s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner:hover{
+    background-color: rgba(0, 0, 112, 0.514);
+    transition: 1s;
+}
+
+.banner .background{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.banner .banner_content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.banner .logo{
+    width: 40%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.banner .action{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.banner .action h2{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 3px 3px 10px black;
+    width: 100%;
+}
+
+.banner .action a{
+    font-size: 25px;
+    text-decoration: none;
+    color: rgb(0, 0, 140);
+    background-color: white;
+    border-radius: 25px;
+    padding: 10px 20px;
+    margin: 5px;
+    transition: .5s;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.688);
+    border: solid rgba(0, 0, 0, 0.37) 1px;
+}
+
+.banner .action a:hover{
+    background-color: rgb(0, 0, 110);
+    color: white;
+    transition: .5s;
+}
+
+.shop{
+    text-align: center;
+}
+
+.shop h2{
+    font-size: 40px;
+    margin-bottom: 0;
+}
+
+.shop p{
+    margin-top: 0;
+}
+
+.flex_shop{
+    display: flex;
+    width: 60vw;
+    margin: auto;
+}
+
+.shop_item img{
+    width: 30vw;
+    padding: 10vw;
+    box-sizing: border-box;
+}
+
+.shop_item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.ebay{
+    filter: brightness(0) invert(1);
+    transition: .5s;
+}
+.ebay:hover{
+    filter: none;
+    transition: .5s;
+}
+
+.ebay_back{
+    background-color: #86B817;
+    transition: .5s;
+}
+
+.ebay_back:hover{
+    background-color: white;
+    transition: .5s;
+}
+
+.etsy{
+    filter: brightness(0) invert(1);
+    transition: .5s;
+}
+
+.etsy:hover{
+    filter: none;
+    transition: .5s;
+}
+
+.etsy_back{
+    background-color: #eb6d20;
+    transition: .5s;
+}
+
+.etsy_back:hover{
+    background-color: white;
+    transition: .5s;
+}
+
+.learn h2{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.learn p{
+    padding: 20px 50px;
+    box-sizing: border-box;
+    max-width: 1000px;
+    margin: auto;
+}
+
+footer{
+    background-color: rgba(43, 43, 43, 0.671);
+    padding: 20px;
+    text-align: center;
+    margin-top: 35px;
+}
+
+footer a{
+    text-align: center;
+    padding: 20px;
+    font-size: 15px;
+    color: white;
+}
