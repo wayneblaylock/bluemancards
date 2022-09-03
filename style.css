@@ -27,43 +27,16 @@ h2{
     color: rgb(0, 0, 105);
 }
 
-.header{
-    position: absolute;
-    top: 0;
-    left: 0;
-    margin: 0;
-    padding: 5px 0px;
-    z-index: 5;
-    background-color: rgb(255, 255, 255);
-    height: 35px;
-    width: 100%;
-    text-align: right;
-    box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.582);
-}
-
-h1{
-    padding: 0;
-    margin: 0 50px 0 0;
-    font-size: 30px;
-    color: rgb(0, 0, 100);
-    font-family: 'Montserrat', sans-serif;
-}
-
 .banner{
     padding: 0;
     margin: 0;
     width: 100%;
     height: 100vh;
-    background-color: rgba(0, 0, 0, 0.144);
+    background-color: rgba(0, 0, 0, 0.39);
     transition: 1s;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.banner:hover{
-    background-color: rgba(0, 0, 112, 0.514);
-    transition: 1s;
 }
 
 .banner .background{
@@ -115,7 +88,7 @@ h1{
 }
 
 .banner .action a:hover{
-    background-color: rgb(0, 0, 110);
+    background-color: rgba(0, 0, 99, 0.627);
     color: white;
     transition: .5s;
 }
@@ -132,6 +105,26 @@ h1{
         width: 60%;
     }
   }
+
+.flex_get{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 25px;
+}
+
+.flex_get img{
+    width: 300px;
+    height: auto;
+    padding: 10px;
+}
+
+.flex_get p{
+    padding: 20px;
+    max-width: 350px;
+    font-size: 30px;
+}
 
 .shop{
     text-align: center;
